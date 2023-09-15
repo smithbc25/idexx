@@ -1,0 +1,7 @@
+models:
+  - name: full_data
+    description: aggregation of data tables made available
+    columns:
+      - name: opportunity_id
+        tests:
+          - unique
